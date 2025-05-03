@@ -1,0 +1,128 @@
+
+
+
+body{
+    margin : 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header{
+    
+    background-color: #1B263B;
+    padding: 20px;
+    border-bottom: 3px solid #60656F;
+}
+
+
+li{
+    list-style-type: none;
+    
+}
+.home-link{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px;
+    color: #1B263B;
+}
+a{
+    text-decoration: none;
+    color: #F2F2F2;
+    
+}
+a:hover{
+    transition: all 1s;
+    color: #D4AF37;
+    background-color: #1B263B;
+    border-radius: 15px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    border-bottom-color: #000000;   
+}
+.navbar-logo{
+    height: 70px;
+    width: 70px;
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.form-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #1B263B;
+    text-align: center;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1B263B;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    background-color: #F2F2F2;
+    color: #1B263B;
+}
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    background-color: #F2F2F2;
+    color: #1B263B;
+}
+label{
+    color: #f0f1f3;
+}
+.btn-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #1B263B;
+    border: none;
+
+}
+.btn-form-chld{
+    background-color: #F2F2F2;
+    padding: 5px;
+    border-radius: 10px;
+    color: #1B263B;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-form-chld:hover{
+    background-color: #1B263B;
+    color: #D4AF37;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.form-container:hover{
+    transition: all 1s;
+    transform: scale(1.05);
+}
