@@ -86,6 +86,14 @@ input{
     width: 300px;
     background-color: #F2F2F2;
     color: #1B263B;
+    
+}
+input:focus{
+    outline: none;
+    border: 2px solid #D4AF37;
+    transition: all 1s;
+    background-color: #F2F2F2;
+    color: #1B263B;
 }
 textarea {
     padding: 10px;
