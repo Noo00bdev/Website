@@ -97,6 +97,27 @@ a:hover{
     gap: 20px;
     place-items: center;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B263B;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
 footer{
     background-color: #1B263B;
     margin: 0px;
