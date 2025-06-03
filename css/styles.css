@@ -45,7 +45,7 @@ header{
     border: 1px solid white;
 }
 .hero-text{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 70px;
     color: white;
     font-size: 30px;
@@ -69,4 +69,24 @@ header{
 }
 .hero-icons p{
     color: white;
+    font-weight: 300;
+}
+.hero-btns button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 70px;
+    gap: 10px;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+}
+.hero-btns button:hover{
+    background: rgba(206, 176, 176, 0.13);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: #f9f9f9;
 }
