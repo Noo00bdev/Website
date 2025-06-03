@@ -3,6 +3,8 @@ body{
     padding: 0;
     height: 100vh;
 }
+
+
 header{
     background-image : url(/Image/hero.jpg);
     background-size: cover;
@@ -16,12 +18,14 @@ header{
 }
 .Hero{
     padding: 10px;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid white;
     background: rgba(146, 105, 105, 0.13)
+
 }
 .Hero ul{
     list-style: none;
@@ -29,8 +33,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 90px;
     gap: 20px;
+
 }
 .Hero ul li a{
     color: white;
@@ -104,7 +109,7 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-right: 100px;
-    margin-left: 100px;
+    margin-left: 30px;
     color: #000;
     font-size: 20px;
     font-weight: 600;
@@ -124,7 +129,7 @@ header{
     flex-direction: row;
     align-items: center;
     gap: 40px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-right: 100px;
 }
 .type-card{
@@ -150,4 +155,126 @@ header{
     font-size: 10px;
     font-weight: 400;
     color: #000;
+}
+
+/* car cards */
+
+.cars{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    padding: 20px;
+
+}
+.car-cards{
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+    align-items: center;    
+    flex-wrap: wrap;
+
+}
+.car-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+.car-card{
+    position: relative;
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(101, 101, 101, 0.808);
+}
+.car-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+.car-des{
+    position: absolute;
+    display: flex;
+    bottom: 170px;
+    left: 5px;
+    flex-direction: column;
+    font-size: 12px;
+    width: 100%;
+}
+.car-card .car-img-des span{
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+.car-icon-item{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #000;
+    font-size: 10px;
+    font-weight: 300;
+
+}
+.car-card .car-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    margin-top: 190px;
+    border-top: 1px solid rgba(72, 72, 72, 0.489);
+    padding-top: 5px;
+    border-bottom:1px solid rgba(72, 72, 72, 0.489);
+    padding: 20px;
+    font-size: 10px;
+}
+.car-card .car-icon img{
+    width: 10px;
+    height: 10px;
+}
+
+.car-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+}
+.car-price .btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    color: #4757b6;
+    font-size: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+.car-price .btn img{
+    width: 10px;
+    height: 10px;
+    color: #4757b6;
 }
