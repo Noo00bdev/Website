@@ -211,9 +211,8 @@ header{
     font-family: 'DM Sans', sans-serif;
 }
 .car-title button{
-    padding: 10px;
+    background-color: #F9FBFC;
     border-radius: 5px;
-    background-color: #ffffff;
     border: none;
     color: #000;
     font-family: 'DM Sans', sans-serif;
@@ -352,6 +351,81 @@ header{
     }
     #menuList.open {
         max-height: 500px; /* ou une valeur assez grande pour contenir tout le menu */
+    }
+    header{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+    }
+    .hero-icons{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        gap : 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-title{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .hero-text{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .type{
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .type-cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .type-title{
+        margin-right: 0px;
+        margin-left: 0px;
+        font-weight: 200;
+        font-size: 10px;
+    }
+    .type-title img{
+        width: 10px;
+        height: 10px;
+    }
+    .car-title{
+        margin-right: 0px;
+        margin-left: 0px;
+        gap: 10px  ;
+        font-weight: 200;
+        font-size: 10px
+    }
+    .car-cards{
+        display: flex;
+        flex-direction: column;
+        margin-left : 0px;
+        margin-right: 0px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .cars{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
     }
 
 }
