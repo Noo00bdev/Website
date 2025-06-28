@@ -8,8 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/main.js" defer></script>
     <title>Car rental</title>
-    <script src="scripts/main.js"></script>
+    
 </head>
 <body>
     <header>
@@ -17,7 +19,10 @@
             <div class="name-logo">
                 <p> BoxCar</p>
             </div>
-            <ul>
+            <div class="menu-icon" >
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+            <ul id="menuList">
                 <li><a href="">Home</a></li>
                 <li><a href="">Listing</a></li>
                 <li><a href="">Blog</a></li>
@@ -25,9 +30,11 @@
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Sign in</a></li>
-                <li class ='submit-listing'><a href="">Submit Listing</a></li>
+                <li class ='submit-listing'><a href="">Submit Listing</a></li>  
             </ul>
+            
         </nav>
+        
         <div>
             <p class="hero-text">$35,000</p>
             <h1 class="hero-title">Mercedes-Benz, C Class</h1>
@@ -39,7 +46,7 @@
             <div class="hero-btns">
                 <button class="btn"> Learn More <img src="Logo/SVG.png" alt=""></button>
             </div>
-        </div>
+        </div> 
     </header>
     <main>
         <section class="type">
