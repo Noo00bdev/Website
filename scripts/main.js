@@ -18,3 +18,19 @@ function toggleMenu_black(){
         icon.setAttribute('src', 'Logo/menu-black.png');
     }   
 }
+
+
+// Function to handle form submission
+
+const btn = document.querySelector(".btn-form")
+function show(){
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
+    const message = document.getElementById('message').value
+    const show = document.querySelector('.show')
+    let div = document.createElement('div')
+    div.innerHTML = `<h3>${name} </h3>`
+    show.appendChild(div)
+}
+
+btn.addEventListener("click", show)
