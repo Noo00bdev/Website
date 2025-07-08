@@ -53,7 +53,7 @@ header{
     border: 1px solid white;
 }
 
-.menu-icon i{
+.menu-icon img{
     display: none;
     color: white;
     font-size: 30px;
@@ -341,7 +341,7 @@ header{
     .Hero ul li{
         padding: 10px;
     }
-    .menu-icon i{
+    .menu-icon img{
         display: block;
     }
     #menuList {
@@ -365,7 +365,7 @@ header{
         margin-left: 10px;
         gap : 10px;
         align-items: center;
-        justify-content: center;
+        
     }
     .hero-title{
         margin-left: 10px;
@@ -410,7 +410,6 @@ header{
     }
     .car-cards{
         display: flex;
-        flex-direction: column;
         margin-left : 0px;
         margin-right: 0px;
         padding: 10px;
