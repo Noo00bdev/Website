@@ -7,51 +7,51 @@ body{
     height: 100vh;
 }
 
-header{
-    
-    background-color: #1B263B;
-    padding: 20px;
-    border-bottom: 3px solid #60656F;
+.name-logo{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 100;
 }
 
-
-li{
-    list-style-type: none;
-    
-}
-.home-link{
-    background-color: #F2F2F2;
-    border-radius: 10px;
+.Hero{
     padding: 10px;
-    color: #1B263B;
-}
-a{
-    text-decoration: none;
-    color: #F2F2F2;
-    
-}
-a:hover{
-    transition: all 1s;
-    color: #D4AF37;
-    background-color: #1B263B;
-    border-radius: 15px;
-}
-
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    border-bottom-color: #000000;   
-}
-.navbar-logo{
-    height: 70px;
-    width: 70px;
-}
-.navlink{
+    margin: 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid white;
+    background: rgba(146, 105, 105, 0.13)
+
+}
+.Hero ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
     gap: 20px;
 
+}
+.Hero ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.submit-listing{
+    padding : 10px;
+    background: rgba(146, 105, 105, 0.13);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.menu-icon img{
+    display: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
 }
 
 .form-title{
@@ -133,4 +133,37 @@ label{
 .form-container:hover{
     transition: all 1s;
     transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 826px) {
+    .Hero ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(248, 247, 247, 0.8);
+        gap : 0px;
+        backdrop-filter: blur(10px);
+        overflow: hidden;
+    }
+    
+    .Hero ul li{
+        padding: 10px;
+    }
+    .menu-icon img{
+        display: block;
+    }
+    #menuList {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    #menuList.open {
+        max-height: 500px; /* ou une valeur assez grande pour contenir tout le menu */
+    }
 }

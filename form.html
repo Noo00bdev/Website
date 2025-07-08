@@ -9,19 +9,25 @@
 <body>
     <header>
 
-        <div class="header-link">
-
-            <nav class="navbar">
-                <div class="logo">
-                    <a href="index.html" class="logo"><img src="Image/logo.png" alt="" class="navbar-logo"></a>
-                </div>
-                <ul class="navlink">
-                    <li><a href="index.html" class="home-link">Acceuil</a></li>
-                    <li><a href="about.html">Modèle</a></li>
-                    <li><a href="services.html">A propos</a></li>
-                    <li><a href="form.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav class = "Hero">
+            <div class="name-logo">
+                <p> BoxCar</p>
+            </div>
+            <div class="menu-icon" >
+                <img src="Logo/menu-black.png" alt="" onclick="toggleMenu_black()" class="menu-icon-img">
+            </div>
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Listing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="form.html">Contact</a></li>
+                <li><a href="">Sign in</a></li>
+                <li class ='submit-listing'><a href="">Submit Listing</a></li>  
+            </ul>
+            
+        </nav>
 
         </div>
 
@@ -47,6 +53,6 @@
         </form>
     </div>
 
-    
+<script src="scripts/main.js"></script> 
 </body>
 </html>

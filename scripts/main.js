@@ -10,3 +10,11 @@ function toggleMenu(){
         icon.setAttribute('src', 'Logo/menu.png');
     }   
 }
+function toggleMenu_black(){
+    menuList.classList.toggle("open");
+    if (icon.getAttribute('src').includes('menu-black.png')) {
+        icon.setAttribute('src', 'Logo/close-black.png');
+    } else {
+        icon.setAttribute('src', 'Logo/menu-black.png');
+    }   
+}
